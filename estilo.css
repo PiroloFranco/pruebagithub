@@ -1,0 +1,22 @@
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: yellow;
+    color: red;
+  }
+}
+@media only screen and (min-width: 500px) {
+  body {
+    background: black;
+  }
+  h1 {
+    color: white;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  body {
+    background-color: rgb(202, 190, 190);
+  }
+  h1 {
+    color: chartreuse;
+  }
+}
